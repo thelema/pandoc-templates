@@ -8,10 +8,10 @@ $else$
 \usepackage[$geometry$,paper=$paper$,hmargin=$hmargin$,vmargin=$vmargin$]{geometry}
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \setmainfont{$mainfont$}
   \setsansfont{$sansfont$}
   \setmonofont{$monofont$}
-  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \else
   \usepackage[mathletters]{ucs}
   \usepackage[utf8x]{inputenc}
